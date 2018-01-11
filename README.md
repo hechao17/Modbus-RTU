@@ -19,6 +19,8 @@
 软件是用Python3.4和PyQt5制作的，当然还使用了Pyserial库
 界面没有使用Designer制作，纯手工代码摆放!~_~! (控件摆放花了大部分时间！)
 
+- 关于版本问题，为什么V5版本了？虽然程序是用python重新写的第一版，但是界面是仿造经典版本的，而且为了向经典致敬！觉得是之前版本的一个延续吧！所以就借用 **“威武”**改为V5版本了。～—～
+
 ![软件界面](https://github.com/hechao17/Modbus-RTU/raw/master/md_pic/face.png)  
 
 软件主要的功能和相对老版本的变化有：
@@ -39,15 +41,20 @@
 1. 将图片先转换成py文件
 2. 然后在项目中需要添加图片文件时，先将py文件还原为临时图片，项目引用后，将临时图片删除即可
 
-![文档说明](https://github.com/hechao17/Modbus-RTU/raw/master/md_pic/file.png)  
+![](https://github.com/hechao17/Modbus-RTU/raw/master/md_pic/file.png)  
 
-所以大家在工程文件的png文件中，可以找到 **“png2py.py”** 文件，就是用来修改将图片png转化为py文件的工具，使用的是python自带的base64库。
+所以大家在工程文件下的png文件夹中，可以找到 **“png2py.py”** 文件，就是用来修改将图片png转化为py文件的工具，使用的是python自带的base64库。
 
-在项目目录下的 **“py2png.py”** 文件则是通过py文件生成临时图片的工具。
+在工程文件目录下的 **“py2png.py”** 文件则是通过py文件生成临时图片的工具。
 
 **“pytoexe.py”** 文件则是用来打包exe文件的，注意大家打包的时候,需要修应该的里面的打包的绝对路径。
 
-**“modbus-rtu.py”** 就是主工程文件。
+----------
+**“Modbus-RTU”** 文件夹是主要的工程文件，里面还包括了 **“png文件夹”**, **“modbus-rtu.py”** 就是主工程文件。
+
+**“md_pic”** 文件夹则是编辑README.md文件引用的图片资源，大家可以不用关心。
+
+**“Modbus-RTU.exe”** 则是打包好的exe执行文件，大家可以不必安装python也可以直接运行使用。
 
 ----------
 
@@ -55,5 +62,10 @@ exe和源程序都奉献给大家，供大家参考！！
 由于是业余python新手，第一版程序没有优化，github也是第一次托管程序，大家多包涵！希望大神多提意见！
 
 如果大家能帮忙测试测试软件，那就更谢谢大家了！
+
+email：he-128@163.com  
+
+Q Q:   357407542
+![](https://github.com/hechao17/Modbus-RTU/raw/master/md_pic/wechat.png)
 
 ----------
