@@ -65,7 +65,9 @@ exe和源程序都奉献给大家，供大家参考！！
 
 email：he-128@163.com  
 
-Q Q:   357407542
+Q Q:   357407542   
+
 ![](https://github.com/hechao17/Modbus-RTU/raw/master/md_pic/wechat.png)
+
 
 ----------
