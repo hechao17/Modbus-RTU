@@ -72,7 +72,7 @@ exe和源程序都奉献给大家，供大家参考！！
 ## 联系     
 ### Email: he-128@163.com
 ### Q Q:   357407542
-心理有阳光，哪里都是晴天！![](https://github.com/hechao17/Modbus-RTU/raw/master/md_pic/wechat.png)
+心里有阳光，哪里都是晴天！![](https://github.com/hechao17/Modbus-RTU/raw/master/md_pic/wechat.png)
 
 
 	
